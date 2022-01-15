@@ -13,7 +13,6 @@ import './bootstrap';
 
 import $ from 'jquery';
 import generateHeader from "./js/generate-header";
-import "./js/captcha";
 
 $(document).ready(function () {
     $('body').prepend('<h1>' + generateHeader('Rehan') + '</h1>');

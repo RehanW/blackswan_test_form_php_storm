@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6685547ed420719efe42b883aa9b6917",
+    "content-hash": "5c2b346e689f55cb261516d0d8576e82",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -1505,6 +1505,66 @@
             "time": "2021-10-11T09:18:27+00:00"
         },
         {
+            "name": "excelwebzone/recaptcha-bundle",
+            "version": "v1.5.31",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/excelwebzone/EWZRecaptchaBundle.git",
+                "reference": "f5fbc9e164976a581fb579c2d38ec869000de600"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/excelwebzone/EWZRecaptchaBundle/zipball/f5fbc9e164976a581fb579c2d38ec869000de600",
+                "reference": "f5fbc9e164976a581fb579c2d38ec869000de600",
+                "shasum": ""
+            },
+            "require": {
+                "google/recaptcha": "^1.1",
+                "php": "^7.1 || ^8.0",
+                "symfony/form": "^2.8 || ^3.0 || ^4.0 || ^5.0 || ^6.0",
+                "symfony/framework-bundle": "^2.8 || ^3.0 || ^4.0 || ^5.0 || ^6.0",
+                "symfony/security-bundle": "^2.8 || ^3.0 || ^4.0 || ^5.0 || ^6.0",
+                "symfony/validator": "^2.8 || ^3.0 || ^4.0 || ^5.0 || ^6.0",
+                "symfony/yaml": "^2.8 || ^3.0 || ^4.0 || ^5.0 || ^6.0",
+                "twig/twig": "^1.40 || ^2.9 || ^3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7 || ^8 || ^9.5"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "symfony": {
+                    "allow-contrib": "true"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "EWZ\\Bundle\\RecaptchaBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael H. Arieli",
+                    "email": "excelwebzone@gmail.com",
+                    "homepage": "http://excelwebzone.com/"
+                }
+            ],
+            "description": "This bundle provides easy reCAPTCHA form field integration",
+            "homepage": "https://github.com/excelwebzone/EWZRecaptchaBundle",
+            "keywords": [
+                "recaptcha"
+            ],
+            "support": {
+                "issues": "https://github.com/excelwebzone/EWZRecaptchaBundle/issues",
+                "source": "https://github.com/excelwebzone/EWZRecaptchaBundle/tree/v1.5.31"
+            },
+            "time": "2022-01-11T15:13:31+00:00"
+        },
+        {
             "name": "friendsofphp/proxy-manager-lts",
             "version": "v1.0.5",
             "source": {
@@ -1588,25 +1648,25 @@
         },
         {
             "name": "google/recaptcha",
-            "version": "1.2",
+            "version": "1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/recaptcha.git",
-                "reference": "3875d025d0465f36f32452f614e7ffc1462c889f"
+                "reference": "614f25a9038be4f3f2da7cbfd778dc5b357d2419"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/recaptcha/zipball/3875d025d0465f36f32452f614e7ffc1462c889f",
-                "reference": "3875d025d0465f36f32452f614e7ffc1462c889f",
+                "url": "https://api.github.com/repos/google/recaptcha/zipball/614f25a9038be4f3f2da7cbfd778dc5b357d2419",
+                "reference": "614f25a9038be4f3f2da7cbfd778dc5b357d2419",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.2.20|^2.12",
+                "friendsofphp/php-cs-fixer": "^2.2.20|^2.15",
                 "php-coveralls/php-coveralls": "^2.1",
-                "phpunit/phpunit": "^4.8.36|^5.7.27|^6.59|^7"
+                "phpunit/phpunit": "^4.8.36|^5.7.27|^6.59|^7.5.11"
             },
             "type": "library",
             "extra": {
@@ -1636,7 +1696,7 @@
                 "issues": "https://github.com/google/recaptcha/issues",
                 "source": "https://github.com/google/recaptcha"
             },
-            "time": "2018-08-01T11:58:31+00:00"
+            "time": "2020-03-31T17:50:54+00:00"
         },
         {
             "name": "laminas/laminas-code",
@@ -5259,6 +5319,106 @@
             "time": "2021-11-07T13:29:17+00:00"
         },
         {
+            "name": "symfony/security-bundle",
+            "version": "v6.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/security-bundle.git",
+                "reference": "49bdda6e27076084ed7404c87ab23b42ffae6553"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/security-bundle/zipball/49bdda6e27076084ed7404c87ab23b42ffae6553",
+                "reference": "49bdda6e27076084ed7404c87ab23b42ffae6553",
+                "shasum": ""
+            },
+            "require": {
+                "composer-runtime-api": ">=2.1",
+                "ext-xml": "*",
+                "php": ">=8.0.2",
+                "symfony/config": "^5.4|^6.0",
+                "symfony/dependency-injection": "^5.4|^6.0",
+                "symfony/event-dispatcher": "^5.4|^6.0",
+                "symfony/http-foundation": "^5.4|^6.0",
+                "symfony/http-kernel": "^5.4|^6.0",
+                "symfony/password-hasher": "^5.4|^6.0",
+                "symfony/security-core": "^5.4|^6.0",
+                "symfony/security-csrf": "^5.4|^6.0",
+                "symfony/security-http": "^5.4|^6.0"
+            },
+            "conflict": {
+                "symfony/browser-kit": "<5.4",
+                "symfony/console": "<5.4",
+                "symfony/framework-bundle": "<5.4",
+                "symfony/ldap": "<5.4",
+                "symfony/twig-bundle": "<5.4"
+            },
+            "require-dev": {
+                "doctrine/annotations": "^1.10.4",
+                "symfony/asset": "^5.4|^6.0",
+                "symfony/browser-kit": "^5.4|^6.0",
+                "symfony/console": "^5.4|^6.0",
+                "symfony/css-selector": "^5.4|^6.0",
+                "symfony/dom-crawler": "^5.4|^6.0",
+                "symfony/expression-language": "^5.4|^6.0",
+                "symfony/form": "^5.4|^6.0",
+                "symfony/framework-bundle": "^5.4|^6.0",
+                "symfony/ldap": "^5.4|^6.0",
+                "symfony/process": "^5.4|^6.0",
+                "symfony/rate-limiter": "^5.4|^6.0",
+                "symfony/serializer": "^5.4|^6.0",
+                "symfony/translation": "^5.4|^6.0",
+                "symfony/twig-bridge": "^5.4|^6.0",
+                "symfony/twig-bundle": "^5.4|^6.0",
+                "symfony/validator": "^5.4|^6.0",
+                "symfony/yaml": "^5.4|^6.0",
+                "twig/twig": "^2.13|^3.0.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bundle\\SecurityBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides a tight integration of the Security component into the Symfony full-stack framework",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/security-bundle/tree/v6.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-12-16T22:13:01+00:00"
+        },
+        {
             "name": "symfony/security-core",
             "version": "v6.0.2",
             "source": {
@@ -5419,6 +5579,89 @@
                 }
             ],
             "time": "2021-12-08T15:13:44+00:00"
+        },
+        {
+            "name": "symfony/security-http",
+            "version": "v6.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/security-http.git",
+                "reference": "311c91af9f17ae319477f76874eddbad9377defc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/security-http/zipball/311c91af9f17ae319477f76874eddbad9377defc",
+                "reference": "311c91af9f17ae319477f76874eddbad9377defc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2",
+                "symfony/http-foundation": "^5.4|^6.0",
+                "symfony/http-kernel": "^5.4|^6.0",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/property-access": "^5.4|^6.0",
+                "symfony/security-core": "^5.4|^6.0"
+            },
+            "conflict": {
+                "symfony/event-dispatcher": "<5.4",
+                "symfony/security-bundle": "<5.4",
+                "symfony/security-csrf": "<5.4"
+            },
+            "require-dev": {
+                "psr/log": "^1|^2|^3",
+                "symfony/cache": "^5.4|^6.0",
+                "symfony/rate-limiter": "^5.4|^6.0",
+                "symfony/routing": "^5.4|^6.0",
+                "symfony/security-csrf": "^5.4|^6.0",
+                "symfony/translation": "^5.4|^6.0"
+            },
+            "suggest": {
+                "symfony/routing": "For using the HttpUtils class to create sub-requests, redirect the user, and match URLs",
+                "symfony/security-csrf": "For using tokens to protect authentication/logout attempts"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Security\\Http\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Security Component - HTTP Integration",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/security-http/tree/v6.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-12-29T10:14:09+00:00"
         },
         {
             "name": "symfony/service-contracts",
