@@ -28,18 +28,21 @@ class ContactController extends AbstractController
 
         if ($form->isSubmitted() && $form->isValid()) {
 
+            /*if ($contact->getEmail() == )*/
+
             $entityManager->persist($contact);
             $entityManager->flush();
 
             dump($contact);
 
             $to = $contact->getEmail();
+            $id = $contact->getId();
 
             $email = (new Email())
                 ->from('blackswantest.rehan@gmail.com')
                 ->to('blackswantest.rehan@gmail.com')
-                ->subject('You have been added to the contact list')
-                ->html('<p>Thank you for signing up to the daily news report</p>');
+                ->subject('NEW CONTACT CREATED')
+                ->html('<p>A new user with ID ${id} has been added to the contact list</p>');
             $mailer->send($email);
 
             $email2 = (new Email())

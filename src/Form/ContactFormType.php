@@ -27,6 +27,10 @@ class ContactFormType extends AbstractType
             ->add('email', EmailType::class, [
                 'label' => 'E-mail',
             ])
+            ->add('captcha', ReCaptchaType::class, [
+                'type' => 'invisible' // (invisible, checkbox)
+            ])
+
             ->add('Submit', SubmitType::class)
         ;
     }

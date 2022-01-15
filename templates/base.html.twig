@@ -11,6 +11,13 @@
     </head>
     <body>
         {% block body %}{% endblock %}
+        <script type="text/javascript" src="{{ asset('js/captcha.js') }}"></script>
+
+        <script type="text/javascript"
+                src="https://www.google.com/recaptcha/api.js?
+                onload=onGoogleReCaptchaApiLoad&render=explicit&hl={{app.request.locale}}" async defer>
+
+        </script>
 
     </body>
 </html>
